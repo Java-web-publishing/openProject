@@ -22,7 +22,7 @@
 				</div>
 				<h1>~ CATALOGUE ~</h1>
 				<div class="img_box">
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>A</p></a></div>
+					<div class="img"><a href="divisionPageA.jpg"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>A</p></a></div>
 					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>B</p></a></div>
 					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>C</p></a></div>
 					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>D</p></a></div>
