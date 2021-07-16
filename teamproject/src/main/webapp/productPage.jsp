@@ -23,21 +23,21 @@
 				<h1>~ CATALOGUE ~</h1>
 				<div class="img_box">
 					<div class="img"><a href="divisionPageA.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>A</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>B</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>C</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>D</p></a></div>
+					<div class="img"><a href="divisionPageB.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>B</p></a></div>
+					<div class="img"><a href="divisionPageC.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>C</p></a></div>
+					<div class="img"><a href="divisionPageD.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>D</p></a></div>
 				</div>
 				<div class="img_box">
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>E</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>F</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>G</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>H</p></a></div>
+					<div class="img"><a href="divisionPageE.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>E</p></a></div>
+					<div class="img"><a href="divisionPageF.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>F</p></a></div>
+					<div class="img"><a href="divisionPageG.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>G</p></a></div>
+					<div class="img"><a href="divisionPageH.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>H</p></a></div>
 				</div>
 				<div class="img_box">
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>I</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>J</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>K</p></a></div>
-					<div class="img"><a><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>L</p></a></div>
+					<div class="img"><a href="divisionPageI.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>I</p></a></div>
+					<div class="img"><a href="divisionPageJ.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>J</p></a></div>
+					<div class="img"><a href="divisionPageK.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>K</p></a></div>
+					<div class="img"><a href="divisionPageL.jsp"><img alt="" src="https://dt40dm21pj8em.cloudfront.net/uploads/froala/file/9252/%EA%B0%80%EA%B5%AC%EB%94%94%EC%9E%90%EC%9D%B8%201.jpg"><p>L</p></a></div>
 				</div>
 			</section>
 			
