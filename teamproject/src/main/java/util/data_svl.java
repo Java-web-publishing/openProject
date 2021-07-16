@@ -1,6 +1,7 @@
 package util;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,11 +17,12 @@ import user.userDAO;
 @WebServlet("/data_svl")
 public class data_svl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+       
     /**
-     * Default constructor. 
+     * @see HttpServlet#HttpServlet()
      */
     public data_svl() {
+        super();
         // TODO Auto-generated constructor stub
     }
 
@@ -39,11 +41,37 @@ public class data_svl extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
-	
-	public boolean Checkid (String userid, String userpw) {
-		userDAO userDao = new userDAO();
-		return userDao.checkuser(userid, userpw);
-		
-	}
+	public String getJSON(String search_data) {
+	      if(search_data == null) {search_data = "";}    
+	      StringBuffer result = new StringBuffer(""); 
+	      
+	      
+	      result.append("{\"result\":[");
+	      
+	      userDAO userDao = new userDAO();
+	      ArrayList<userDAO> datalist = userDAO.getdata(search_data);   
+	      
+	      
+	         for(int i = 0; i < datalist.size(); i++) {
+	        	 if (  datalist.size() == 1){
+	        		 result.append("[{\"value\": \"" + datalist.get(i).getDTOno() + "\"},");
+	                 result.append("{\"value\": \"" + datalist.get(i).getDTOid() + "\"},");
+	                 result.append("{\"value\": \"" + datalist.get(i).getDTOpw() + "\"}]");
+	        	 } else if(i < datalist.size() -1 ) {
+	        		 result.append("[{\"value\": \"" + datalist.get(i).getDTOno() + "\"},");
+	                 result.append("{\"value\": \"" + datalist.get(i).getDTOid() + "\"},");
+	                 result.append("{\"value\": \"" + datalist.get(i).getDTOpw() + "\"}],");
+	        	 } else {
+	        		 result.append("[{\"value\": \"" + datalist.get(i).getDTOno() + "\"},");
+	                 result.append("{\"value\": \"" + datalist.get(i).getDTOid() + "\"},");
+	                 result.append("{\"value\": \"" + datalist.get(i).getDTOpw() + "\"}]");
+	        	 }
+	        	 
+	             
+	          }
+	         result.append("]}");
+	   
+	      return result.toString();      
+	   }
 
 }

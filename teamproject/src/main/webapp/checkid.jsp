@@ -10,9 +10,11 @@
 	userDAO userdao = null;
 	userdao = new userDAO();
 	boolean result1 = userdao.checkuser(d_id, d_pw);
+	
 	if(result1 == true) {
 		out.println("<script>location.href = 'productbanners.jsp' </script>");
 	}else {
 		out.println("<script>alert('로그인 정보가 다릅니다.'); history.back(); </script>");
 	}
+	
 %>

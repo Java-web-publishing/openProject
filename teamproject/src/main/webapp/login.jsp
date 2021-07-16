@@ -27,6 +27,6 @@
 	
 	</body>
 	<script type="text/javascript">
-	
+	console.log("4");
 	</script>
 </html>
