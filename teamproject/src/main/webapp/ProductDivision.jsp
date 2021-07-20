@@ -8,7 +8,6 @@
 	<link href="css/division_main.css" rel="stylesheet" type="text/css">
 	<link href="css/division_pc.css" rel="stylesheet" type="text/css">
 	<link href="css/division_mobile.css" rel="stylesheet" type="text/css">
-	<script src="js/header.js"></script>
 	<script src="js/ProductDivision.js"></script>
    <title>Catalogue</title>
 </head>
