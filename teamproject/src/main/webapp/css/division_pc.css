@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@media all and (min-width: 748px){
+	.wrap{
+		width: 1200px;
+	}
+	section .d_menu{
+		margin-top: 100px;
+	}
+	section .d_menu ul{
+		margin: 20px 90px 20px 0;
+	}
+	section .d_menu ul:nth-child(2){
+		margin: 20px 0 20px 90px;
+	}
+	section .d_menu ul li{
+		cursor: pointer;
+		font-size:24px;
+	}
+	section .d_menu ul li:nth-child(2n){
+		cursor: default;
+	}
+	section h1{
+		font-size: 36px;
+		margin: 10px 0;
+	}
+	section .p_info{
+		width: 275px;
+		height: 300px;
+		margin: calc((100% - 1100px) / 8);
+	}
+	section .p_info .img_box{
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	section .p_info .img_box img{
+		width: 275px;
+		height: auto;
+	}
+	section .p_info .exp_text{
+		height: 70px;
+	}
+}

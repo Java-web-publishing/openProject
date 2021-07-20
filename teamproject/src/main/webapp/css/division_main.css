@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{margin:0; padding:0;}
+.wrap{
+	margin: 0 auto;
+	position: relative;
+}
+section{
+	width: 100%;
+	text-align: center;
+}
+section .d_menu{
+	width: 100%;
+}
+section .d_menu ul{
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .d_menu ul li{
+	list-style: none;
+	flex: 4;
+}
+section .d_menu ul li:nth-child(2n){
+	flex: 1;
+}
+section h1{
+	font-size: 36px;
+}
+section .p_info{
+	width: 275px;
+	float: left;
+}
+section .p_info .img_box{
+	width: 100%;
+}
