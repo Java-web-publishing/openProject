@@ -1,0 +1,262 @@
+*{margin: 0 ; padding: 0;}
+.wrap{
+  width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  margin: 0 5;
+  /* overflow: hidden; */
+}
+header{
+   width: 100%;
+   height: 80px;
+   background-color: rgb(238, 199, 82);
+   display: fixed;
+   z-index: 100;
+}
+header .logo{
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  margin-left: 4%;
+
+}
+header .logo h1{
+    font-size: 50px;
+}
+header .menu{
+  width: 400px;
+  height: 100%;
+  float: right;
+  color: black;
+  display: fixed;
+}
+header .menu ul{
+  width: 100%; height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .menu ul li{
+  flex: 1;
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+section{
+  width: 100%;
+}
+section .page{
+  width: 100%;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+.page1{
+  background-color: gray;
+}
+.page2{
+  background-color: white;
+}
+.page3{
+  background-color:  gray;
+}
+section .page1{
+  width: 100%;
+  height: 500px;
+}
+section .page2{
+  width: 100%;
+  height: 500px;
+}
+section .page3{
+  width: 100%;
+  height: 500px;
+}
+section .page1 .imgbox{
+  left: 0;
+  top: 80px;
+  position: absolute;
+  width: 400%;
+  display: flex;
+  display: inline-block;
+}
+section .page1 #imgs{
+    width: 25%;
+    height: calc(100vh - 550px);
+    float: left;
+}
+section .page1 .slid_bt{
+    width: 150px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .page1 .slid_bt .span{
+    width: 25px;
+    height: 25px;
+    background-color:white;
+    border-radius:50%;
+    display: block;
+
+}
+
+.bestbox1{
+  height: 428px;
+  position: relative;
+  }
+.boxs{
+  width: 100%;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.boxs h3{
+    font-size: 3vw;
+    text-align: center;
+}
+.boxs1{
+  width:  270px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: 130px;
+  margin-right: 10px;
+}
+.boxs2{
+  width: 270px;
+  height: 120px;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boxs3{
+  width: 270px;
+  height: 120px;
+  background-color: rgb(34, 207, 32);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boxs4{
+  width: 270px;
+  height: 120px;
+  background-color: blue;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+  /* margin-right: 10px; */
+}
+.bestbox1{
+  height: 428px;
+
+  position: relative;
+  }
+.boxs{
+  width: 100%; height: 200px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.boxss h3{
+    font-size: 3vw;
+    text-align: center;
+}
+.boxss1{
+  width:  270px;
+  height: 120px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: 130px;
+  margin-right: 10px;
+}
+.boxss2{
+  width: 270px;
+  height: 120px;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boxss3{
+  width: 270px;
+  height: 120px;
+  background-color: rgb(34, 207, 32);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boxss4{
+  width: 270px;
+  height: 120px;
+  background-color: blue;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+  /* margin-right: 10px; */
+}
+footer .f_wrap{
+  height: 100%;
+}
+#footer{
+  height: 120px;
+}
+#footer .gray{
+  height: 120px;
+  background-color: lightgray;
+}
+
+#footer .gray .f_box{
+  width: calc(100% / 3);
+  height: 100%;
+  float: left;
+}
+#footer .gray .f_box h1{
+  font-size: 30px;
+  margin: 30px 0;
+}
+#footer .gray .f_box p{
+  font-size: 20px;
+}

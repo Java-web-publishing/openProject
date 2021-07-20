@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="test28.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+        <div class="logo">
+          <h1>LOGO</h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>상품소개</li>
+            <li>회사소개</li>
+            <li>고객 센터</li>
+          </ul>
+        </div>
+    </header>
+
+  <section>
+    <div class="page1 page">
+      <div class="p1_lbox">
+      <div class="imgbox">
+        <img id="imgs" src="C:\Users\user\Documents\카카오톡 받은 파일\포트폴리오 사진/KakaoTalk_20210705_091612467.jpg" alt="">
+        <img id="imgs" src="C:\Users\user\Documents\카카오톡 받은 파일\포트폴리오 사진/KakaoTalk_20210705_091559273_03.jpg" alt="">
+        <img id="imgs" src="C:\Users\user\Documents\카카오톡 받은 파일\포트폴리오 사진/KakaoTalk_20210705_091612467_04.jpg" alt="">
+        <img id="imgs" src="C:\Users\user\Documents\카카오톡 받은 파일\포트폴리오 사진/KakaoTalk_20210705_091612467_06.jpg" alt="">
+      </div>
+    <div class="slid_bt">
+      <span class="span"></span>
+      <span class="span"></span>
+      <span class="span"></span>
+      <span class="span"></span>
+      </div>
+      </div>
+    </div>
+
+    <div class="page2 page">
+        <article class= "bestbox">
+          <div class="boxs">
+              <h3>---------- 신규 상품 ----------</h3>
+              <div class="boxs1">1
+
+              </div>
+              <div class="boxs2">2
+
+              </div>
+              <div class="boxs3">3
+
+              </div>
+              <div class="boxs4">4
+
+              </div>
+          </div>
+      </article>
+    </div>
+
+    <div class="page3 page">
+      <article class= "bestbox1">
+          <div class="boxss">
+              <h3>---------- 인기 상품 ----------</h3>
+              <div class="boxss1">1
+
+              </div>
+              <div class="boxss2">2
+
+              </div>
+              <div class="boxss3">3
+
+              </div>
+              <div class="boxss4">4
+
+              </div>
+          </div>
+      </article>
+    </div>
+
+  </section>
+
+  <footer id="footer">
+    <div class="gray">
+      <div class="wrap f_wrap">
+        <div class="f_box">
+          <h1>오시는길</h1>
+          <p><br></p>
+        </div>
+        <div class="f_box">
+          <h1>구독하기</h1>
+        </div>
+        <div class="f_box">
+          <h1>공식 SNS</h1>
+          <div class="">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</div>
+
+  <script>
+      $(document).ready(function(){
+          var page_count = 0;
+
+          var page_wid = $("section").width();
+
+          var span = document.querySelectorAll(".span");
+
+          var page_event = true;
+
+          var th_start_x;
+
+          var th_move_x;
+
+          var th_end_x;
+
+          start();
+
+          $(window).resize(function(){
+              page_wid = $("section").width();
+          })
+
+          $("header li").click(function(){
+
+              page_count = ($(this).index());
+
+              console.log(page_count);
+
+              $(".imgbox").stop().animate({
+                  left: -page_wid * page_count + "px"
+              },{duration:1000,complete:function(){
+                  page_event = true;
+              }});
+              lightBt();
+          });
+
+          $(span).click(function(){
+
+              page_count = ($(this).index());
+
+              page_move();
+          });
+
+          $(window).on("wheel", function(c){
+              var E = c.originalEvent.wheelDelta;
+
+              if(E < 0 && page_count < 3 && page_event == true){
+                  page_event = false;
+                  page_count++;
+                  page_move();
+              }else if(E > 0 && page_count > 0 && page_event == true){
+                  page_event = false;
+                  page_count--;
+                  page_move();
+              }
+              lightBt();
+          });
+
+          $(document).on("touchstart",function(th){
+              th_start_x = th.originalEvent.touches[0].screenX;
+              th_end_x = th_move_x;
+          });
+
+          $(document).on("touchmove",function(th){
+              th_move_x = th.originalEvent.touches[0].screenX;
+          });
+
+          $(document).on("touchend",function(th){
+              th_end_x = th_start_x - th_move_x;
+
+              if(th_end_x < -80 && page_count > 0 && page_event == true){
+                  page_event = false;
+                  page_count--;
+                  page_move();
+              }else if(th_end_x > 80 && page_count < 3 && page_event == true){
+                  page_event = false;
+                  page_count++;
+                  page_move();
+              }
+          });
+
+
+          function lightBt(){
+              $(span).css({
+                  'background' : 'white',
+              });
+              $(span[page_count]).css({
+                  'background' : 'rgb(17, 16, 16)'
+              });
+          }
+
+          function start(){
+              lightBt();
+          }
+
+          function page_move(){
+              $(".imgbox").stop().animate({
+                  left: -page_wid * page_count + "px"
+              },{duration:1000,complete:function(){
+                  page_event = true;
+              }});
+              lightBt();
+          }
+      });
+  </script>
+</body>
+</html>
