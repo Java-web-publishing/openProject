@@ -8,40 +8,42 @@
 	<link href="css/division_main.css" rel="stylesheet" type="text/css">
 	<link href="css/division_pc.css" rel="stylesheet" type="text/css">
 	<link href="css/division_mobile.css" rel="stylesheet" type="text/css">
-	<script src="js/ProductDivision.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/section.js"></script>
    <title>Catalogue</title>
 </head>
 <body>
    <div class="wrap">
       <header>
+      
       </header>
       <section>
          <div class="d_menu">
             <ul>
-               <li>가구A</li>
+               <li id="page_A">가구A</li>
                <li>/</li>
-               <li>가구B</li>
+               <li id="page_B">가구B</li>
                <li>/</li>
-               <li>가구C</li>
+               <li id="page_C">가구C</li>
                <li>/</li>
-               <li>가구D</li>
+               <li id="page_D">가구D</li>
                <li>/</li>
-               <li>가구E</li>
+               <li id="page_E">가구E</li>
                <li>/</li>
-               <li>가구F</li>
+               <li id="page_F">가구F</li>
             </ul>
             <ul>
-               <li>가구G</li>
+               <li id="page_G">가구G</li>
                <li>/</li>
-               <li>가구H</li>
+               <li id="page_H">가구H</li>
                <li>/</li>
-               <li>가구I</li>
+               <li id="page_I">가구I</li>
                <li>/</li>
-               <li>가구J</li>
+               <li id="page_J">가구J</li>
                <li>/</li>
-               <li>가구K</li>
+               <li id="page_K">가구K</li>
                <li>/</li>
-               <li>가구L</li>
+               <li id="page_L">가구L</li>
             </ul>
          </div>
          <div class="page_ajax">
